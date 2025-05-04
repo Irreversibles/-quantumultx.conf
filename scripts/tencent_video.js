@@ -1,7 +1,7 @@
 /*
-ÌÚÑ¶ÊÓÆµÈ¥¹ã¸æ½Å±¾
+è…¾è®¯è§†é¢‘åŽ»å¹¿å‘Šè„šæœ¬
 */
- body = body.replace(/<div class="mod_vip_popup.*?>.*?<\/div>/g, '');
+body = body.replace(/<div class="mod_vip_popup.*?>.*?<\/div>/g, '');
 body = body.replace(/<div id="vip_tips".*?>.*?<\/div>/g, '');
 body = body.replace(/<div class="video_operation_bottom.*?>.*?<\/div>/g, '');
 body = body.replace(/<div class="bottom_bar".*?>.*?<\/div>/g, '');
